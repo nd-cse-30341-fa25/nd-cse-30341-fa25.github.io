@@ -1,0 +1,42 @@
+- name:     Peter Bui
+  role:     Instructor
+  icon:     human-male-board
+  netid:    pbui
+  github:   pbui
+
+- name:     Genesis Argueta
+  role:     Teaching Assistant
+  icon:     account-question
+  netid:    gargueta
+  github:   g3n3s1s-a
+
+- name:     Carlos Basurto
+  role:     Teaching Assistant
+  icon:     account-question
+  netid:    cbasurto
+  github:   cbasurtom
+
+- name:     Luke Cao
+  role:     Teaching Assistant
+  icon:     account-question
+  netid:    lcao3
+  github:   lukewarm3
+
+- name:     Catherine Healy
+  role:     Teaching Assistant
+  icon:     account-question
+  netid:    chealy5
+  github:   CatherineH3
+
+- name:     Jack O'Connor
+  role:     Teaching Assistant
+  icon:     account-question
+  netid:    joconn25
+  github:   Jacko7973
+
+- name:     Alyssa Riter
+  role:     Teaching Assistant
+  icon:     account-question
+  netid:    ariter
+  github:   AlyssaRiter23
+

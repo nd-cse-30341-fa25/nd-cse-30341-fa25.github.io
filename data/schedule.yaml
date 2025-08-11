@@ -1,0 +1,176 @@
+- name:     "Unit 01: Virtualization with Processes"
+
+- name:     Hardware, Operating Systems
+  days:
+      - date:           Tue 08/26
+        topics:         Syllabus, Computer Hardware, Boot Sequence
+        assignments:
+          - Reading 01
+        items:
+          - name:       Slide 00
+          - name:       Slide 01
+          - name:       Panopto
+
+      - date:           Thu 08/27
+        topics:         OS Taxonomy, History, Themes
+        items:
+          - name:       Slide 02
+          - name:       Panopto
+
+- name:     System Calls, Processes
+  days:
+      - date:           Tue 09/02
+        topics:         System Calls
+        assignments:
+          - Reading 02
+
+      - date:           Thu 09/04
+        topics:         Processes
+
+- name:     Scheduling
+  days:
+      - date:           Tue 09/09
+        topics:         FIFO, Round Robin
+        assignments:
+          - Reading 03
+
+      - date:           Thu 09/11
+        topics:         MLFQ, Lottery
+
+- name:     Exam 01
+  days:
+      - date:           Tue 09/16
+        topics:         Events
+        assignments:
+          - Project 01
+
+      - date:           Thu 09/18
+        topics:         ''
+        items:
+          - name:       Exam 01
+
+- name:     "Unit 02: Concurrency with Threads"
+
+- name:     Threads, Locks
+  days:
+      - date:           Tue 09/23
+        topics:         Threads
+        assignments:
+          - Reading 04
+
+      - date:           Thu 09/25
+        topics:         Locks
+
+- name:     Condition Variables
+  days:
+      - date:           Tue 09/30
+        topics:         Condition Variables
+        assignments:
+          - Reading 05
+
+      - date:           Thu 10/02
+        topics:         Structures
+
+- name:     Semaphores
+  days:
+      - date:           Tue 10/07
+        topics:         Semaphores
+        assignments:
+          - Reading 06
+
+      - date:           Thu 10/09
+        topics:         Patterns
+
+- name:     Exam 02
+  days:
+      - date:           Tue 10/14
+        topics:         Concurrency Bugs
+        assignments:
+          - Project 02
+
+      - date:           Thu 10/16
+        topics:         ''
+        items:
+          - name:       Exam 02
+
+- name:   "Fall Break"
+
+- name:   "Unit 03: Virtualization with Memory"
+
+- name:     Virtual Memory
+  days:
+      - date:           Tue 10/28
+        topics:         Address Space, Translation
+        assignments:
+          - Reading 07
+
+      - date:           Thu 10/30
+        topics:         Free-Space Management
+
+- name:     Heap Management, Segmentation
+  days:
+      - date:           Tue 11/04
+        topics:         Heap Management
+        assignments:
+          - Reading 08
+
+      - date:           Thu 11/06
+        topics:         Segmentation
+
+- name:     Paging
+  days:
+      - date:           Tue 11/11
+        topics:         Paging
+        assignments:
+          - Reading 09
+
+      - date:           Thu 11/13
+        topics:         TLB / Multi-Level
+
+- name:     Exam 03
+  days:
+      - date:           Tue 11/18
+        topics:         Swapping
+        assignments:
+          - Project 03
+
+      - date:           Thu 11/20
+        topics:         ''
+        items:
+          - name:       Exam 03
+
+- name:     "Unit 04: Persistence with File Systems"
+
+- name:     I/O Devices
+  days:
+      - date:           Tue 11/25
+        topics:         I/O Devices, RAID
+        assignments:
+          - Reading 10
+
+      - date:           Thu 11/27
+        topics:         Thanksgiving
+
+- name:     File Systems
+  days:
+      - date:           Tue 12/02
+        topics:         File Systems
+        assignments:
+          - Reading 11
+
+      - date:           Thu 12/04
+        topics:         FFS, LFS
+
+- name:     Consistency, Integrity
+  days:
+      - date:           Tue 12/09
+        topics:         Consistency, Integrity
+        assignments:
+          - Project 04
+
+- name:     Exam 04
+  days:
+      - date:           Mon 12/15
+        topics:         ''
+        items:
+          - name:       Exam 04
