@@ -1,10 +1,10 @@
-<a class="logo" href="/">
+<a class="logo" href="{{ page.link }}">
     <h1>{{ (page.title or site.title) }}</h1>
 </a>
 <nav>
     <ul>
-    {% for page in (page.navigation or site.navigation) %}
-    <li><a href="{{ page['link'] }}"><h4>{{ page['name'] }}</h4></a></li>
+    {% for p in (page.navigation or site.navigation) %}
+    <li><a href="{{ p['link'] }}"><h4>{{ p['name'] }}</h4></a></li>
     {% endfor %}
     </ul>
 </nav>
