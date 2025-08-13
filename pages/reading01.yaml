@@ -17,7 +17,7 @@ body:       |
 
     <div class="alert info-bg" markdown="1">
 
-    #### <i class="icon">{{ "book" | embed_icon }}</i> TL;DR
+    ### <i class="icon icon-medium">{{ "book" | embed_icon }}</i> TL;DR
 
     For this week, you need to setup your [GitHub] repository, read about basic
     hardware and operating system concepts, and submit your responses to the
@@ -175,7 +175,7 @@ body:       |
         your own account and linked to the [nd-cse-30341-fa25] organization.
 
         <div class="alert info-bg" markdown="1">
-        #### <i class="icon">{{ "server" | embed_icon }}</i> Student Machines
+        ### <i class="icon icon-medium">{{ "server" | embed_icon }}</i> Student Machines
 
         As a reminder, students in this class have access to the following
         **student** machines: `student05.cse.nd.edu`, `student10.cse.nd.edu`,
