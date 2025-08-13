@@ -1,3 +1,5 @@
 title:  CSE 30341 Operating System Principles (Fall 2025)
 prefix: cse.30341.fa25
-navigation: []
+navigation:
+  - name: Home
+    link: index.html
