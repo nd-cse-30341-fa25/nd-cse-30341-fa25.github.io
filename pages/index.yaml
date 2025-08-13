@@ -413,12 +413,12 @@ body:       |
       </thead>
       <tbody>
         <tr style="font-weight: bold;">
-          <td>Consulting</td>
+          <td class="centered">Consulting</td>
           <td class="centered success-bg">Allowed</td>
           <td class="centered danger-bg">Not Allowed</td>
         </tr>
         <tr style="font-weight: bold;">
-          <td>Copying</td>
+          <td class="centered">Copying</td>
           <td class="centered caution-bg">Cite</td>
           <td class="centered danger-bg">Not Allowed</td>
         </tr>
