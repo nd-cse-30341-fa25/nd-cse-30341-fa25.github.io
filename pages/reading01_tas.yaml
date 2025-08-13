@@ -1,7 +1,4 @@
 title:      Reading 01 - TA Assignment
-navigation:
-  - name: "Home"
-    link: "index.html"
 external:
     mapping:  data/reading01.yaml
 body:       |

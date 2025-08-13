@@ -1,7 +1,4 @@
 title:      "Reading 01: Hardware, Operating Systems"
-navigation:
-  - name: "Home"
-    link: "index.html"
 extensions:
   - codehilite
   - toc
