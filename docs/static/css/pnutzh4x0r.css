@@ -205,7 +205,9 @@ pre {
     color: var(--terminal-foreground);
     padding: 1rem;
     white-space: pre-wrap;
-    word-wrap: break-word;
+    word-break: break-all;
+    overflow: auto;
+    overflow-wrap: break-word;
 }
 
 pre code {
