@@ -77,6 +77,23 @@ body:   |
 
     </div>
 
+    ### Optional AI Conversation
+
+    Using [Learn About from Google] (*or your preferred AI agent*), have a
+    conversation using the following prompts:
+
+    > 1. Explain what happens when a process is created on a unix system.
+
+    > 2. Describe the different states a process can be in on a unix system.
+
+    > 3. Summarize what happens during a system call.
+
+    > 4. Summarize what happens during a context switch.
+
+    As you explore, feel free to dive into any suggested related questions.
+
+    [Learn About from Google]: https://learning.google.com/experiments/learn-about
+
     ## Quiz
 
     Once you have done the **Readings**, answer the following [Reading 02 Quiz]
