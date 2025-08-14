@@ -643,7 +643,7 @@ body:       |
 
         </div>
 
-    <div class="alert info-bg" markdown="1">
+    <div class="alert success-bg" markdown="1">
     ### <i class="icon icon-medium">{{ "account-question" | embed_icon }}</i> Graders
 
     Please refer to the [Reading 01 TA List] to determine who your grader is
