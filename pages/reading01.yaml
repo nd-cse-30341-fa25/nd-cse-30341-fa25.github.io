@@ -306,8 +306,7 @@ body:       |
     ### Optional AI Conversation
 
     Using [Learn About from Google] (*or your preferred AI agent*), have a
-    conversation about the core operating system themes and the [Linux]
-    boot process using the following prompts:
+    conversation using the following prompts:
 
     > 1. Explain the following core themes of an operating system:
       virtualization, concurrency, persistence.
