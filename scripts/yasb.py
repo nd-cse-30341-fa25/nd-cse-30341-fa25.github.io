@@ -158,6 +158,8 @@ class Site:
         'footnotes',
         'md_in_html',
         'tables',
+        Extensions['codehilite'],
+        Extensions['toc'],
     ]
 
     # Decorator
