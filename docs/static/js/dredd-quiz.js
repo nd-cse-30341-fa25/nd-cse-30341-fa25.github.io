@@ -123,7 +123,7 @@ function loadQuiz(quiz_url) {
 	    } else if (data[question].type == 'multiple') {
 		for (var response in data[question].responses) {
 		    html.push('<div class="checkbox"><label>');
-		    html.push(`<input type="checkbox" name="${question}" value="${response}">${data[question].responses[response]}`);
+		    html.push(`<input type="checkbox" name="${question}" value="${response}"><span>${data[question].responses[response]}</span>`);
 		    html.push('</label></div>');
 		}
 	    } else if (data[question].type == 'order') {
