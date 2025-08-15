@@ -163,7 +163,7 @@ body:   |
             ...       // Success
         }
 
-    Once you have a `sha1sum_process` funciton, you will need to modify the
+    Once you have a `sha1sum_process` function, you will need to modify the
     `main` function as follows:
 
         :::text
