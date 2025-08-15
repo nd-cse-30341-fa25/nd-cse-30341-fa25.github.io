@@ -134,7 +134,7 @@ body:   |
     ## Task 1: Slack
 
     For communication outside of our meeting time, we will be using [Slack],
-    specifically the `#cse-30341-fa25` channel:
+    specifically the [#cse-30341-fa25] channel:
 
     > [https://nd-cse.slack.com/messages/cse-30341-fa25/](https://nd-cse.slack.com/messages/cse-30341-fa25/)
 
@@ -142,6 +142,7 @@ body:   |
     (*including office hours and homework help*) should take place on [Slack].
 
     [class mailing list]: mailto:fa25-cse-30341-01-group@nd.edu
+    [#cse-30341-fa25]: https://nd-cse.slack.com/messages/cse-30341-fa25/
 
     <div class="alert caution-bg" markdown="1">
 
