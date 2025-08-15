@@ -32,7 +32,7 @@
     --caution: var(--nord13);
     --warning: var(--nord12);
     --danger: var(--nord11);
-    --code: var(--nord15);
+    --code: var(--nord11);
     --muted: light-dark(var(--nord03), var(--nord04));
     --heading: light-dark(var(--nord03), var(--nord05));
     --alert: light-dark(var(--nord04), var(--nord01));
@@ -192,11 +192,8 @@ blockquote {
 }
 
 code {
-    background: var(--terminal-background);
-    border: 1px solid var(--accent);
-    color: var(--accent);
-    padding: 0.2rem 0.4rem;
-    font-size: 0.9rem;
+    color: var(--code);
+    font-weight: bold;
 }
 
 pre {
@@ -211,10 +208,8 @@ pre {
 }
 
 pre code {
-    border: 0;
     color: var(--terminal-foreground);
-    font-size: 1rem;
-    padding: 0;
+    font-weight: normal;
 }
 
 th, td {
@@ -521,6 +516,10 @@ div.footnote > hr {
     flex-direction: column;
     flex: 1;
     gap: 1rem;
+}
+
+.text-strong {
+    font-weight: bold;
 }
 
 .text-right {
