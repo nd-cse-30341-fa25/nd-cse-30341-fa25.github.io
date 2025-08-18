@@ -8,14 +8,15 @@
           - Reading 01
         items:
           - name:       Slide 00
+            link:       https://docs.google.com/presentation/d/1A3SaAwfWLgeXEQjo7any2KZ9kJBr2ESSlKkVm0E9XNM/edit?usp=sharing
           - name:       Slide 01
-          - name:       Panopto
+            link:       https://docs.google.com/presentation/d/1yhdVRwylNat3fgnDpLRoKfZkpgOcU6vujnQCjNiiRmI/edit?usp=sharing
 
       - date:           Thu 08/27
         topics:         OS Taxonomy, History, Themes
         items:
           - name:       Slide 02
-          - name:       Panopto
+            link:       https://docs.google.com/presentation/d/1yo9GeRHMYnIkZToFuDW9FwfrFFTi3q5KBFhzO0I6_zY/edit?usp=sharing
 
 - name:     System Calls, Processes
   days:
@@ -23,9 +24,15 @@
         topics:         System Calls
         assignments:
           - Reading 02
+        items:
+          - name:       Slide 03
+            link:       https://docs.google.com/presentation/d/1UiCgP-MfCG9iQi34Wepa-mVGpfdQVx-KMwpGOWu_vKw/edit?usp=sharing
 
       - date:           Thu 09/04
         topics:         Processes
+        items:
+          - name:       Slide 04
+            link:       https://docs.google.com/presentation/d/1DaDnETUrCBdtgW_6ngoH_aTfYABYaSFQqn_dUeefL4U/edit?usp=sharing
 
 - name:     Scheduling
   days:
@@ -33,9 +40,15 @@
         topics:         FIFO, Round Robin
         assignments:
           - Reading 03
+        items:
+          - name:       Slide 05
+            link:       https://docs.google.com/presentation/d/1B_f8zBls_te5E38yGOTMM55M_H-8QM0eJ8B-zjNdiDg/edit?usp=sharing
 
       - date:           Thu 09/11
         topics:         MLFQ, Lottery
+        items:
+          - name:       Slide 06
+            link:       https://docs.google.com/presentation/d/1kb6xBc_KDF8cALHj5V1ORkhdmW42y7VDz5PEnrJbk9U/edit?usp=sharing
 
 - name:     Exam 01
   days:
