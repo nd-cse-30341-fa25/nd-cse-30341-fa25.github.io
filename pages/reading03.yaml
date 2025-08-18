@@ -193,7 +193,7 @@ body:   |
 
         $ git pull --rebase                   # Make sure we are up-to-date with GitHub
 
-        $ git checkout -b reading03           # Create reading03 branch and check it out
+        $ git switch -c reading03             # Create reading03 branch and switch to it
 
         $ cd reading03                        # Go into reading03 folder
         $ $EDITOR answers.json                # Edit your answers.json file

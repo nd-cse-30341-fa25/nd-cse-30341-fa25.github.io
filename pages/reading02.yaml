@@ -232,7 +232,7 @@ body:   |
 
         $ git pull --rebase                   # Make sure we are up-to-date with GitHub
 
-        $ git checkout -b reading02           # Create reading02 branch and check it out
+        $ git switch -c reading02             # Create reading02 branch and switch to it
 
         $ cd reading02                        # Go into reading02 folder
         $ $EDITOR answers.json                # Edit your answers.json file

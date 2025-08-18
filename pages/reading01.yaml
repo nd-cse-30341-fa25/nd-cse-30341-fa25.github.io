@@ -417,7 +417,7 @@ body:   |
             $ git switch master           # Make sure we are in master branch
             $ git pull --rebase           # Make sure we are up-to-date with GitHub repository
 
-            $ git checkout -b reading01   # Create reading01 branch and check it out
+            $ git switch -c reading01     # Create reading01 branch and switch to it
 
         Once you do the above, you should see the following output for the
         [git-branch] command:
