@@ -11,12 +11,16 @@
             link:       https://docs.google.com/presentation/d/1A3SaAwfWLgeXEQjo7any2KZ9kJBr2ESSlKkVm0E9XNM/edit?usp=sharing
           - name:       Slide 01
             link:       https://docs.google.com/presentation/d/1yhdVRwylNat3fgnDpLRoKfZkpgOcU6vujnQCjNiiRmI/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=832ae5bd-0394-4991-bbaf-b34500ff4ef2
 
       - date:           Thu 08/27
         topics:         OS Taxonomy, History, Themes
         items:
           - name:       Slide 02
             link:       https://docs.google.com/presentation/d/1yo9GeRHMYnIkZToFuDW9FwfrFFTi3q5KBFhzO0I6_zY/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43e91236-dadd-4979-8496-b34700fa617a
 
 - name:     System Calls, Processes
   days:
