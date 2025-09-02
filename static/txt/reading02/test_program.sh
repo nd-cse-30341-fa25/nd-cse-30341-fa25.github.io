@@ -72,7 +72,7 @@ test_program() {
     valgrind --leak-check=full --trace-children=yes ./program $ARGUMENTS > $WORKSPACE/test.stdout 2> $WORKSPACE/test.stderr
     if [ $? -ne $EXITCODE ]; then
 	error "Failure (Exit Code)"
-    elif [ "$NODIFF" = "" ] && ! diff -W 120 -y <($SHASUM $ARGUMENTS 2> /dev/null | sort) <(sort $WORKSPACE/test.stdout) &> $WORKSPACE/test.diff; then
+    elif [ "$NODIFF" = "" ] && ! diff -W 120 -y <(sort $WORKSPACE/test.stdout) <($SHASUM $ARGUMENTS 2> /dev/null | sort) &> $WORKSPACE/test.diff; then
 	error "Failure (Output)"
     elif [ $(count_valgrind_errors < $WORKSPACE/test.stderr) -ne 0 ]; then
 	error "Failure (Valgrind)"
