@@ -18,6 +18,10 @@ error() {
     	cat $WORKSPACE/test.stderr
     	echo
 	;;
+    *)
+    	cat $WORKSPACE/test
+    	echo
+	;;
     esac
     FAILURES=$((FAILURES + 1))
 }
@@ -107,7 +111,7 @@ fi
 
 
 printf " %-60s ... " "Memory Functions"
-if grep_any "malloc free" program.c; then
+if ! grep_any "malloc calloc" program.c; then
     error "Failure"
 else
     echo "Success"
