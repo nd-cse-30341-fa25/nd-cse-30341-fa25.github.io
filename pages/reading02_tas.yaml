@@ -1,6 +1,7 @@
 title:      Reading 02 - TA Assignment
 external:
     mapping:  data/reading02.yaml
+    repos:    data/repos.yaml
 body:       |
     <table>
       <thead>
@@ -12,8 +13,8 @@ body:       |
       <tbody>
       {% for m in page.external['mapping'] | sort(attribute='student') %}
         <tr>
-          <td class="caution-bg">{{ m['student']  }}</td>
-          <td class="success-bg">{{ m['grader']  }}</td>
+          <td class="info-bg"><a href="{{ page.external['repos'][m['student']] }}">{{ m['student'] }}</a></td>
+          <td class="danger-bg"><a href="https://github.com/{{ m['grader'] }}">{{ m['grader'] }}</a></td>
         </tr>
         {% if loop.index % 10 == 0 %}
         <tr>
@@ -45,8 +46,8 @@ body:       |
         {% set ns.grader = m['grader'] %}
 
         <tr>
-          <td class="success-bg">{{ m['grader']  }}</td>
-          <td class="caution-bg">{{ m['student']  }}</td>
+          <td class="danger-bg"><a href="https://github.com/{{ m['grader'] }}">{{ m['grader'] }}</a></td>
+          <td class="info-bg"><a href="{{ page.external['repos'][m['student']] }}">{{ m['student'] }}</a></td>
         </tr>
       {% endfor %}
       </tbody>
