@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WORKSPACE=/tmp/reading03.$(id -u)
+WORKSPACE=/tmp/reading04.$(id -u)
 FAILURES=0
 POINTS=2
 SHASUM=sha1sum
@@ -86,8 +86,8 @@ test_program() {
     elif [ $(count_valgrind_errors < $WORKSPACE/test.stderr) -ne 0 ]; then
 	error "Failure (Valgrind)"
     else
-    	strace -e clone ./program $ARGUMENTS > /dev/null 2> $WORKSPACE/test.strace
-    	if [ $(grep -c clone $WORKSPACE/test.strace) -ne $(echo $ARGUMENTS | wc -w) ]; then
+    	strace -e clone,clone3 ./program $ARGUMENTS > /dev/null 2> $WORKSPACE/test.strace
+    	if [ $(grep -c CLONE_THREAD $WORKSPACE/test.strace) -lt $(echo $ARGUMENTS | wc -w) ]; then
 	    error "Failure (Strace)"
 	else
 	    echo "Success"
@@ -101,7 +101,7 @@ mkdir $WORKSPACE
 trap "cleanup" EXIT
 trap "cleanup 1" INT TERM
 
-echo "Testing reading03 program ... "
+echo "Testing reading04 program ... "
 
 
 printf " %-60s ... " "I/O System Calls"
@@ -136,7 +136,14 @@ else
 fi
 
 printf " %-60s ... " "Process System Calls"
-if ! grep_all "fork wait WEXITSTATUS" program.c; then
+if ! grep_any "fork wait WEXITSTATUS" program.c; then
+    error "Failure"
+else
+    echo "Success"
+fi
+
+printf " %-60s ... " "Thread Functions"
+if ! grep_all "pthread_create pthread_join" program.c; then
     error "Failure"
 else
     echo "Success"
