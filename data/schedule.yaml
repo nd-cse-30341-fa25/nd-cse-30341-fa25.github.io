@@ -68,6 +68,9 @@
         topics:         Events
         assignments:
           - Project 01
+        items:
+          - name:       Slide 07
+            link:       https://docs.google.com/presentation/d/1nLkAbYmX_p9oZ1B8wQBshUGWBEEe1LRfGLmPB9jRJzc/edit?usp=sharing
 
       - date:           Thu 09/18
         topics:         ''
