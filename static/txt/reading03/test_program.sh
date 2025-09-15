@@ -18,6 +18,10 @@ error() {
     	cat $WORKSPACE/test.stderr
     	echo
 	;;
+    *Strace*)
+    	cat $WORKSPACE/test.strace
+    	echo
+	;;
     *)
     	cat $WORKSPACE/test
     	echo
