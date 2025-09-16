@@ -65,12 +65,14 @@
 - name:     Exam 01
   days:
       - date:           Tue 09/16
-        topics:         Events
+        topics:         Concurrency
         assignments:
           - Project 01
         items:
           - name:       Slide 07
             link:       https://docs.google.com/presentation/d/1nLkAbYmX_p9oZ1B8wQBshUGWBEEe1LRfGLmPB9jRJzc/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=401c1ba5-f707-4ef7-8b13-b35a00f9409a
 
       - date:           Thu 09/18
         topics:         ''
@@ -82,7 +84,7 @@
 - name:     Threads, Locks
   days:
       - date:           Tue 09/23
-        topics:         Threads
+        topics:         Events, Threads
         assignments:
           - Reading 04
         items:
