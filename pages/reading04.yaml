@@ -54,7 +54,9 @@ body:       |
 
     The readings for this week are:
 
-    1. [Operating Systems: Three Easy Pieces]
+    1.  <div class="flex-col" markdown="1">
+
+        [Operating Systems: Three Easy Pieces]
 
         1. [Dialogue](http://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-concurrency.pdf)
         2. [Concurrency and Threads](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)
@@ -64,10 +66,12 @@ body:       |
 
     ### Optional Readings
 
-    1. [On the duality of operating system structures](https://blog.acolyer.org/2014/12/08/on-the-duality-of-operating-system-structures/)
+    1.  <div class="flex-col" markdown="1">
 
-        - [Why events are a bad idea](https://blog.acolyer.org/2014/12/10/why-events-are-a-bad-idea/)
-        - <p>[Why threads are a bad idea](https://blog.acolyer.org/2014/12/09/why-threads-are-a-bad-idea/)</p>
+        [On the duality of operating system structures](https://dl.acm.org/doi/10.1145/850657.850658)
+
+        - [Why events are a bad idea](https://www.usenix.org/conference/hotos-ix/why-events-are-bad-idea-high-concurrency-servers)
+        - [Why threads are a bad idea](https://web.stanford.edu/~ouster/cgi-bin/papers/threads.pdf)
 
     2. [Async IO on Linux: select, poll, and epoll](https://jvns.ca/blog/2017/06/03/async-io-on-linux--select--poll--and-epoll/)
 
