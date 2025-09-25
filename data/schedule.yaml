@@ -98,6 +98,8 @@
         items:
           - name:       Slide 09
             link:       https://docs.google.com/presentation/d/13FxJya15wklsV54bCrZ1DGr2Z8xSNzhmLGgPAyWnC4A/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3dfea2ed-3248-41a9-b5bc-b36300faee94
 
 - name:     Condition Variables
   days:
