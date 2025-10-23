@@ -44,7 +44,7 @@
     },
     "q08": {
         "type": "multiple",
-        "question": "\n<p>Which of the following statements regarding strategies for growing the heap\nare true (<i>select all that apply</i>)?</p>\n",
+        "question": "\n<p>Which of the following statements regarding strategies for growing the heap\nare true (<i>choose all that apply</i>)?</p>\n",
         "responses": {
             "bestfit": "Best fit is effective and has low costs.",
             "worstfit": "Worst fit is prone to excess fragmentation and has high overheads.",
