@@ -692,7 +692,8 @@ body:       |
           Status Success
 
     <div class="alert success-bg" markdown="1">
-    #### <i class="fa fa-git"></i> Individual Quiz
+
+    ### <i class="icon icon-medium">{{ "github" | embed_icon }}</i> Individual Quiz
 
     Each group member must do the quiz on their own and record their answers in
     the `project02` folder in their **assignments** [GitHub] repository.
