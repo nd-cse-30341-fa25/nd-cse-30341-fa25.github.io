@@ -168,12 +168,16 @@
         items:
           - name:       Slides 13
             link:       https://docs.google.com/presentation/d/1jWYwSBI8J-4o3D-_R4-KlDAPd20DJ6hF5qQxtbhm1ak/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e3cddd03-d41e-4cc6-bbff-b38400fb5771
 
       - date:           Thu 10/30
         topics:         Free-Space Management
         items:
           - name:       Slides 14
             link:       https://docs.google.com/presentation/d/1Qe4Z8eJzqcsG1C4fpx_wSp61m3BzGpZB-nzvvtDXQcs/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7fee9bf9-a9c9-41c3-be00-b38600fe662a
 
 - name:     Heap Allocation, Segmentation
   days:
