@@ -207,12 +207,16 @@
         items:
           - name:       Slides 16
             link:       https://docs.google.com/presentation/d/1SY-hVx3mvipeQCzUsmBkduwVe2CYd8At5HcV_rBFB3M/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9908751a-394f-4a85-b63f-b392010b07e0
 
       - date:           Thu 11/13
         topics:         TLB / Multi-Level
         items:
           - name:       Slides 17
             link:       https://docs.google.com/presentation/d/1tFgRkiSQUfc965hrvrysQD5sSkEB5pODvckV2JlKvEI/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53af3f1e-0fb1-42b3-b4ab-b394010b92a1
 
 - name:     Exam 03
   days:
