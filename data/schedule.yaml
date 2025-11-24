@@ -243,6 +243,11 @@
         topics:         I/O Devices, RAID
         assignments:
           - Reading 10
+        items:
+          - name:       Slides 19
+            link:       https://docs.google.com/presentation/d/11_PkLkLFBjOt6VE39UQ-YaU50QCK2tUOzQsewOFVrNg/edit?usp=sharing
+          - name:       Slides 20
+            link:       https://docs.google.com/presentation/d/13ENuM7A3SyCrsfEWP-B8KP5usAALV2t07cuDiB8NhLI/edit?usp=sharing
 
       - date:           Thu 11/27
         topics:         Thanksgiving
@@ -253,9 +258,15 @@
         topics:         File Systems
         assignments:
           - Reading 11
+        items:
+          - name:       Slides 21
+            link:       https://docs.google.com/presentation/d/1fUgxg2beGMrlKXS8ZvQAFuVHmbgATSB_VcnI5-SdefE/edit?usp=sharing
 
       - date:           Thu 12/04
         topics:         FFS, LFS
+        items:
+          - name:       Slides 22
+            link:       https://docs.google.com/presentation/d/1tctvxa6UHlA_ljX_L8W7Lxc8wX_MZfCKVuR7f9qFWrw/edit?usp=sharing
 
 - name:     Consistency, Integrity
   days:
@@ -263,6 +274,9 @@
         topics:         Consistency, Integrity
         assignments:
           - Project 04
+        items:
+          - name:       Slides 23
+            link:       https://docs.google.com/presentation/d/1TI_pSpAwUducSXjBILn2bCm-oVPn-JBl-CYaQFgro_Q/edit?usp=sharing
 
 - name:     Exam 04
   days:
