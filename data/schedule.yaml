@@ -263,6 +263,8 @@
         items:
           - name:       Slides 21
             link:       https://docs.google.com/presentation/d/1fUgxg2beGMrlKXS8ZvQAFuVHmbgATSB_VcnI5-SdefE/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22dcbd35-f8a2-48ca-ae3a-b3a7010af95b
 
       - date:           Thu 12/04
         topics:         FFS, LFS
