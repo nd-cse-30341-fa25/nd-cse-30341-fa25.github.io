@@ -375,7 +375,7 @@ is given in <code>include/sfs/fs.h</code>:</p>
 <span class="cm">/* File System Functions */</span>
 
 <span class="kt">void</span><span class="w">    </span><span class="nf">fs_debug</span><span class="p">(</span><span class="n">Disk</span><span class="w"> </span><span class="o">*</span><span class="n">disk</span><span class="p">);</span>
-<span class="kt">bool</span><span class="w">    </span><span class="nf">fs_format</span><span class="p">(</span><span class="n">Disk</span><span class="w"> </span><span class="o">*</span><span class="n">disk</span><span class="p">);</span>
+<span class="kt">bool</span><span class="w">    </span><span class="nf">fs_format</span><span class="p">(</span><span class="n">FileSystem</span><span class="w"> </span><span class="o">*</span><span class="n">fs</span><span class="p">,</span><span class="w"> </span><span class="n">Disk</span><span class="w"> </span><span class="o">*</span><span class="n">disk</span><span class="p">);</span>
 
 <span class="kt">bool</span><span class="w">    </span><span class="nf">fs_mount</span><span class="p">(</span><span class="n">FileSystem</span><span class="w"> </span><span class="o">*</span><span class="n">fs</span><span class="p">,</span><span class="w"> </span><span class="n">Disk</span><span class="w"> </span><span class="o">*</span><span class="n">disk</span><span class="p">);</span>
 <span class="kt">void</span><span class="w">    </span><span class="nf">fs_unmount</span><span class="p">(</span><span class="n">FileSystem</span><span class="w"> </span><span class="o">*</span><span class="n">fs</span><span class="p">);</span>
