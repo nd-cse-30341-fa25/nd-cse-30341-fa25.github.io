@@ -43,10 +43,10 @@
         "question": "\n<p>Suppose we were appending to a file and had to allocate a new data block in\nthe file system to accomodate the data we are writing.  Which of the\nfollowing scenarios would yield a \"file-system inconsistency\" problem:</p>\n",
         "responses": {
             "dblock_only": "Just the <b>data block</b> is writen to disk.",
-            "ibitmap_only": "Just the <b>inode bitmap</b> is updated.",
+            "itable_only": "Just the <b>inode table</b> is updated.",
             "dbitmap_only": "Just the <b>data bitmap</b> is updated.",
             "bitmaps_only": "Just the <b>inode</b> and <b>data bitmap</b> are updated.",
-            "ibitmap_dblock": "Just the <b>inode bitmap</b> is updated and the <b>data block</b> is written to disk.",
+            "itable_dblock": "Just the <b>inode table</b> is updated and the <b>data block</b> is written to disk.",
             "dbitmap_dblock": "Just the <b>data bitmap</b> is updated and the <b>data block</b> is written to disk."
         }
     },
@@ -55,10 +55,10 @@
         "question": "\n<p>As a followup to the previous question, which of the situations above\nwould yield garbage data:</p>\n",
         "responses": {
             "dblock_only": "Just the <b>data block</b> is writen to disk.",
-            "ibitmap_only": "Just the <b>inode bitmap</b> is updated.",
+            "itable_only": "Just the <b>inode table</b> is updated.",
             "dbitmap_only": "Just the <b>data bitmap</b> is updated.",
             "bitmaps_only": "Just the <b>inode</b> and <b>data bitmap</b> are updated.",
-            "ibitmap_dblock": "Just the <b>inode bitmap</b> is updated and the <b>data block</b> is written to disk.",
+            "itable_dblock": "Just the <b>inode table</b> is updated and the <b>data block</b> is written to disk.",
             "dbitmap_dblock": "Just the <b>data bitmap</b> is updated and the <b>data block</b> is written to disk."
         }
     },
